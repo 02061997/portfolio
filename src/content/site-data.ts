@@ -93,7 +93,7 @@ export const projects: readonly Project[] = [
     title: "Adversarial Robustness via Entropy-Based Feature Selection in RL",
     year: "KSE 2024 — Published",
     summary:
-      "KSE 2024 research on entropy-based feature selection under adversarial perturbations, accompanied by a public reference reconstruction on Gymnasium CartPole. Published and reconstructed results are reported separately.",
+      "KSE 2024 research on detecting Gaussian and uniform imposter features in Lunar Lander and Bipedal Walker using entropy, joint entropy, and KL divergence. The public reconstruction separates paper-reported PPO/ARS results from deterministic trajectory-fixture results.",
     tags: ["OpenAI Gym", "PyTorch", "RL", "Publication"],
     category: "ML / AI",
     link: "https://github.com/02061997/adversarial-rl-feature-selection",
@@ -103,7 +103,7 @@ export const projects: readonly Project[] = [
     title: "Mouse Brain Cell Segmentation in Fluorescence Microscopy",
     year: "CISS 2025 — Published",
     summary:
-      "CISS 2025 microscopy segmentation research with a public synthetic-fluorescence reference benchmark for reproducible preprocessing, segmentation, and error analysis.",
+      "CISS 2025 six-class microscopy instance-segmentation research comparing Mask R-CNN, CenterMask2, YOLACT++, Mask2Former, MaskDINO, and FastInst, with a public COCO evaluation companion.",
     tags: ["OpenCV", "PyTorch", "CNNs", "Publication"],
     category: "ML / AI",
     link: "https://github.com/02061997/mouse-brain-cell-segmentation",
@@ -113,7 +113,7 @@ export const projects: readonly Project[] = [
     title: "Virtual Yoga Instructor with Real-Time Feedback",
     year: "CISS 2025 — Published",
     summary:
-      "CISS 2025 pose-feedback research with a public geometry engine, deterministic perturbation benchmark, corrective-feedback logic, and measured local latency.",
+      "CISS 2025 pose-feedback research with MediaPipe's 33-landmark schema, eight angle checks, 16 correction prompts, marker coordinates, and a TCP/JSON boundary for the Unity instructor.",
     tags: ["OpenCV", "MediaPipe", "PyTorch", "Publication"],
     category: "ML / AI",
     link: "https://github.com/02061997/virtual-yoga-instructor",
@@ -163,7 +163,7 @@ export const projects: readonly Project[] = [
     title: "Multi-Output Career Prediction Benchmark",
     year: "CISS 2023 — Published",
     summary:
-      "Public reference reconstruction using a deterministic synthetic multilabel dataset, baseline comparisons, multi-output metrics, and subgroup performance reporting without redistributing the original data.",
+      "Paper-faithful multiclass-multioutput benchmark using 26-to-11 entropy feature selection, six domain classes, eight position classes, and six classifiers without redistributing personal LinkedIn-derived records.",
     tags: ["Scikit-learn", "Multi-output", "Benchmark", "Publication"],
     category: "ML / AI",
     link: "https://github.com/02061997/career-prediction-benchmark",

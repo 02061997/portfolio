@@ -10,6 +10,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as WritingRouteImport } from './routes/writing'
+import { Route as VerifiedResearchRouteImport } from './routes/verified-research'
 import { Route as ProjectsRouteImport } from './routes/projects'
 import { Route as ExperienceRouteImport } from './routes/experience'
 import { Route as ContactRouteImport } from './routes/contact'
@@ -19,6 +20,11 @@ import { Route as IndexRouteImport } from './routes/index'
 const WritingRoute = WritingRouteImport.update({
   id: '/writing',
   path: '/writing',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const VerifiedResearchRoute = VerifiedResearchRouteImport.update({
+  id: '/verified-research',
+  path: '/verified-research',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ProjectsRoute = ProjectsRouteImport.update({
@@ -53,6 +59,7 @@ export interface FileRoutesByFullPath {
   '/contact': typeof ContactRoute
   '/experience': typeof ExperienceRoute
   '/projects': typeof ProjectsRoute
+  '/verified-research': typeof VerifiedResearchRoute
   '/writing': typeof WritingRoute
 }
 export interface FileRoutesByTo {
@@ -61,6 +68,7 @@ export interface FileRoutesByTo {
   '/contact': typeof ContactRoute
   '/experience': typeof ExperienceRoute
   '/projects': typeof ProjectsRoute
+  '/verified-research': typeof VerifiedResearchRoute
   '/writing': typeof WritingRoute
 }
 export interface FileRoutesById {
@@ -70,6 +78,7 @@ export interface FileRoutesById {
   '/contact': typeof ContactRoute
   '/experience': typeof ExperienceRoute
   '/projects': typeof ProjectsRoute
+  '/verified-research': typeof VerifiedResearchRoute
   '/writing': typeof WritingRoute
 }
 export interface FileRouteTypes {
@@ -80,9 +89,17 @@ export interface FileRouteTypes {
     | '/contact'
     | '/experience'
     | '/projects'
+    | '/verified-research'
     | '/writing'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/contact' | '/experience' | '/projects' | '/writing'
+  to:
+    | '/'
+    | '/about'
+    | '/contact'
+    | '/experience'
+    | '/projects'
+    | '/verified-research'
+    | '/writing'
   id:
     | '__root__'
     | '/'
@@ -90,6 +107,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/experience'
     | '/projects'
+    | '/verified-research'
     | '/writing'
   fileRoutesById: FileRoutesById
 }
@@ -99,6 +117,7 @@ export interface RootRouteChildren {
   ContactRoute: typeof ContactRoute
   ExperienceRoute: typeof ExperienceRoute
   ProjectsRoute: typeof ProjectsRoute
+  VerifiedResearchRoute: typeof VerifiedResearchRoute
   WritingRoute: typeof WritingRoute
 }
 
@@ -109,6 +128,13 @@ declare module '@tanstack/react-router' {
       path: '/writing'
       fullPath: '/writing'
       preLoaderRoute: typeof WritingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/verified-research': {
+      id: '/verified-research'
+      path: '/verified-research'
+      fullPath: '/verified-research'
+      preLoaderRoute: typeof VerifiedResearchRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/projects': {
@@ -155,6 +181,7 @@ const rootRouteChildren: RootRouteChildren = {
   ContactRoute: ContactRoute,
   ExperienceRoute: ExperienceRoute,
   ProjectsRoute: ProjectsRoute,
+  VerifiedResearchRoute: VerifiedResearchRoute,
   WritingRoute: WritingRoute,
 }
 export const routeTree = rootRouteImport

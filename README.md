@@ -8,6 +8,10 @@ publications, and verified project evidence. Project descriptions link to
 repository-level results and clearly distinguish original research from public
 reference reconstructions.
 
+The evidence-ranked project view is available in
+[`VERIFIED_RESEARCH.md`](VERIFIED_RESEARCH.md) and in the site route
+`/verified-research`.
+
 ## Development
 
 ```bash

@@ -81,10 +81,11 @@ export const projects: readonly Project[] = [
     title: "Reasoning Model Failure Analysis — LLM Interpretability",
     year: "Apr 2026",
     summary:
-      "Controlled LLM evaluation pipeline across 6 reasoning models (7B–70B), separating reasoning-length effects from forced re-entry interventions. Measured a 36-point Llama-distilled degradation while Qwen-distilled models stayed robust. Multi-GPU inference with bfloat16 KV-cache on 4× GH200 GPUs.",
-    tags: ["PyTorch", "HuggingFace", "Slurm", "Multi-GPU"],
+      "Private controlled LLM evaluation pipeline for forced-reconsideration failures in reasoning models. The public companion demonstrates goal-betrayal and partial-undo condition logic, synthetic artifacts, figures, and sanitization boundaries without private prompts or raw model outputs.",
+    tags: ["LLM Evaluation", "Interpretability", "Synthetic Companion", "Reproducibility"],
     category: "ML / AI",
     featured: true,
+    link: "https://github.com/02061997/reasoning-model-failure-analysis-companion",
   },
   {
     slug: "adversarial-rl-entropy",

@@ -8,7 +8,7 @@ export const Route = createFileRoute("/contact")({
       { title: "Contact — Abhijeet Gupta" },
       {
         name: "description",
-        content: "Get in touch with Abhijeet Gupta — email, GitHub, LinkedIn, and resumes.",
+        content: "Get in touch with Abhijeet Gupta — email, GitHub, and LinkedIn.",
       },
       { property: "og:title", content: "Contact — Abhijeet Gupta" },
       {
@@ -62,18 +62,12 @@ function Contact() {
         </ul>
 
         <div className="mt-12">
-          <p className="font-mono text-xs uppercase tracking-[0.2em] text-primary">Resumes</p>
-          <div className="mt-4 flex flex-wrap gap-3">
-            {profile.resumes.map((r) => (
-              <a
-                key={r.href}
-                href={r.href}
-                className="rounded-full border border-border bg-surface px-4 py-2 text-sm hover:bg-surface-elevated"
-              >
-                {r.label} ↓
-              </a>
-            ))}
-          </div>
+          <p className="font-mono text-xs uppercase tracking-[0.2em] text-primary">
+            Role-specific resume
+          </p>
+          <p className="mt-4 rounded-xl border border-border bg-surface/40 p-4 text-sm leading-relaxed text-muted-foreground">
+            {profile.resumeNote}
+          </p>
         </div>
       </section>
     </SiteShell>

@@ -20,10 +20,8 @@ export const profile = {
     scholar: "https://scholar.google.com/citations?user=ViNPVRIAAAAJ&hl=en",
     email: "mailto:abhijeetguptaphd@gmail.com",
   },
-  resumes: [
-    { label: "Resume — ML / AI Engineer", href: "/Abhijeet_Gupta_ML_Resume.pdf" },
-    { label: "Resume — Quantitative Research", href: "/Abhijeet_Gupta_Quant_Resume.pdf" },
-  ],
+  resumeNote:
+    "Resume files are not posted publicly. I share a current, role-specific resume directly for aligned opportunities.",
 } as const;
 
 export const skills = {

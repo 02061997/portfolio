@@ -78,15 +78,12 @@ function Home() {
               >
                 See selected work
               </Link>
-              {profile.resumes.map((r) => (
-                <a
-                  key={r.href}
-                  href={r.href}
-                  className="rounded-full border border-border bg-surface/60 px-4 py-2 text-xs font-medium text-foreground transition-colors hover:bg-surface-elevated"
-                >
-                  {r.label.replace("Resume — ", "")} résumé ↓
-                </a>
-              ))}
+              <a
+                href={profile.links.email}
+                className="rounded-full border border-border bg-surface/60 px-4 py-2 text-xs font-medium text-foreground transition-colors hover:bg-surface-elevated"
+              >
+                Request role-specific resume
+              </a>
             </div>
 
             {/* Featured-in style credential bar */}

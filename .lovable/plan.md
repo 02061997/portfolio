@@ -16,7 +16,7 @@ Distinctive motifs:
 - **Concentric "orbit" rings** (from Mitchell) re-cast as a **probability halo** around a circular portrait (from Sparacio/Javed).
 - **Ticker strip** beneath the hero: rotating chips like `LLM-EVAL · α=0.07`, `PAIRS-TRADE · Sharpe 1.8`, `ADV-RL · ICLR'25 submitted` — credentials styled like a market tape.
 - **"Now" panel** (research focus, location, latest paper) — Sparacio-style at-a-glance card.
-- **Dual-resume CTA**: clearly split "ML Engineering" vs "Quant Research" tracks — leaning into the user's dual identity.
+- **Role-specific contact CTA**: keep the ML Engineering and Quant Research tracks clear without publishing resume PDFs.
 
 ## Pages & structure
 
@@ -24,7 +24,7 @@ Keep current routes (`/`, `/about`, `/projects`, `/experience`, `/writing`, `/co
 
 ### Home (`src/routes/index.tsx`) — full rebuild
 
-1. **Hero** — left: eyebrow (PhD · University of Dayton), display headline "Abhijeet Gupta", one-line positioning ("ML engineer & quant researcher — building reliable learning systems and systematic strategies."), dual CTA buttons (View work / Download résumé dropdown for ML + Quant). Right: circular portrait placeholder inside concentric orbit rings + animated SVG curve in the background.
+1. **Hero** — left: eyebrow (PhD · University of Dayton), display headline "Abhijeet Gupta", one-line positioning ("ML engineer & quant researcher — building reliable learning systems and systematic strategies."), CTA buttons for selected work and direct contact. Right: circular portrait placeholder inside concentric orbit rings + animated SVG curve in the background.
 2. **Ticker strip** — horizontally scrolling marquee of project/credential chips.
 3. **Two-track section** — side-by-side "ML / AI Research" and "Quantitative Research" panels, each with 2 featured project cards pulled from `projects` by category.
 4. **"Now" + selected publication** — split row: a "Currently" card and a featured publication callout.

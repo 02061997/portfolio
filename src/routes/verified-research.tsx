@@ -36,7 +36,7 @@ const projects: readonly EvidenceProject[] = [
   {
     role: "ML/AI Research",
     title: "Reasoning Model Failure Analysis Companion",
-    repo: "https://github.com/02061997/reasoning-model-failure-analysis-companion",
+    repo: "https://github.com/abhijeetgupta02/reasoning-model-failure-analysis-companion",
     evidence: "Synthetic public companion for forced-reconsideration LLM evaluation.",
     result:
       "Goal Betrayal / Partial Undo metrics, bootstrap intervals, figures, and sanitizer checks regenerate from committed code.",
@@ -47,7 +47,7 @@ const projects: readonly EvidenceProject[] = [
   {
     role: "ML/AI Research",
     title: "AI for Construction Safety",
-    repo: "https://github.com/02061997/ai-for-construction-safety",
+    repo: "https://github.com/abhijeetgupta02/ai-for-construction-safety",
     evidence:
       "GROVE evidence package with ablations, paired tests, threshold sensitivity, and claim traceability.",
     result:
@@ -59,7 +59,7 @@ const projects: readonly EvidenceProject[] = [
   {
     role: "LLM Evaluation / RL",
     title: "Adversarial RL Feature Selection",
-    repo: "https://github.com/02061997/adversarial-rl-feature-selection",
+    repo: "https://github.com/abhijeetgupta02/adversarial-rl-feature-selection",
     evidence:
       "Paper-faithful reconstruction of imposter injection, feature descriptors, gates, and detector families.",
     result:
@@ -71,7 +71,7 @@ const projects: readonly EvidenceProject[] = [
   {
     role: "Computer Vision",
     title: "Mouse Brain Cell Segmentation",
-    repo: "https://github.com/02061997/mouse-brain-cell-segmentation",
+    repo: "https://github.com/abhijeetgupta02/mouse-brain-cell-segmentation",
     evidence:
       "COCO-style six-class segmentation companion with metric primitives and qualitative overlays.",
     result:
@@ -83,7 +83,7 @@ const projects: readonly EvidenceProject[] = [
   {
     role: "Quantitative Research",
     title: "Options Pricing and Greeks",
-    repo: "https://github.com/02061997/options-pricing-and-greeks",
+    repo: "https://github.com/abhijeetgupta02/options-pricing-and-greeks",
     evidence:
       "Validated Black-Scholes, Greeks, Monte Carlo variance reduction, parity, bounds, and IV-surface recovery.",
     result:
@@ -95,7 +95,7 @@ const projects: readonly EvidenceProject[] = [
   {
     role: "Quantitative Research",
     title: "GARCH Volatility Modeling",
-    repo: "https://github.com/02061997/garch-volatility-modeling",
+    repo: "https://github.com/abhijeetgupta02/garch-volatility-modeling",
     evidence:
       "Walk-forward one-day volatility forecasts with GARCH, EWMA, rolling baselines, diagnostics, and regimes.",
     result: "GARCH wins RMSE on 4/6 symbols and QLIKE on 5/6; EWMA exceptions are stated directly.",

@@ -15,7 +15,7 @@ export const profile = {
   ],
   email: "abhijeetguptaphd@gmail.com",
   links: {
-    github: "https://github.com/02061997",
+    github: "https://github.com/abhijeetgupta02",
     linkedin: "https://www.linkedin.com/in/abhijeetgupta02",
     scholar: "https://scholar.google.com/citations?user=ViNPVRIAAAAJ&hl=en",
     email: "mailto:abhijeetguptaphd@gmail.com",
@@ -85,7 +85,7 @@ export const projects: readonly Project[] = [
     tags: ["LLM Evaluation", "Interpretability", "Synthetic Companion", "Reproducibility"],
     category: "ML / AI",
     featured: true,
-    link: "https://github.com/02061997/reasoning-model-failure-analysis-companion",
+    link: "https://github.com/abhijeetgupta02/reasoning-model-failure-analysis-companion",
   },
   {
     slug: "adversarial-rl-entropy",
@@ -95,7 +95,7 @@ export const projects: readonly Project[] = [
       "KSE 2024 research on detecting Gaussian and uniform imposter features in Lunar Lander and Bipedal Walker using entropy, joint entropy, and KL divergence. The public reconstruction separates paper-reported PPO/ARS results from deterministic trajectory-fixture results.",
     tags: ["OpenAI Gym", "PyTorch", "RL", "Publication"],
     category: "ML / AI",
-    link: "https://github.com/02061997/adversarial-rl-feature-selection",
+    link: "https://github.com/abhijeetgupta02/adversarial-rl-feature-selection",
   },
   {
     slug: "mouse-brain-segmentation",
@@ -105,7 +105,7 @@ export const projects: readonly Project[] = [
       "CISS 2025 six-class microscopy instance-segmentation research comparing Mask R-CNN, CenterMask2, YOLACT++, Mask2Former, MaskDINO, and FastInst, with a public COCO evaluation companion.",
     tags: ["OpenCV", "PyTorch", "CNNs", "Publication"],
     category: "ML / AI",
-    link: "https://github.com/02061997/mouse-brain-cell-segmentation",
+    link: "https://github.com/abhijeetgupta02/mouse-brain-cell-segmentation",
   },
   {
     slug: "virtual-yoga-instructor",
@@ -115,7 +115,7 @@ export const projects: readonly Project[] = [
       "CISS 2025 pose-feedback research with MediaPipe's 33-landmark schema, eight angle checks, 16 correction prompts, marker coordinates, and a TCP/JSON boundary for the Unity instructor.",
     tags: ["OpenCV", "MediaPipe", "PyTorch", "Publication"],
     category: "ML / AI",
-    link: "https://github.com/02061997/virtual-yoga-instructor",
+    link: "https://github.com/abhijeetgupta02/virtual-yoga-instructor",
   },
   {
     slug: "options-pricing-engine",
@@ -125,7 +125,7 @@ export const projects: readonly Project[] = [
       "Validated Black-Scholes and Monte Carlo pricing with antithetic/control variates, analytical/numerical Greeks, put-call parity grids, no-arbitrage checks, confidence intervals, and a recovered implied-volatility surface.",
     tags: ["Python", "NumPy", "SciPy", "Monte Carlo"],
     category: "Quant",
-    link: "https://github.com/02061997/options-pricing-and-greeks",
+    link: "https://github.com/abhijeetgupta02/options-pricing-and-greeks",
   },
   {
     slug: "pairs-trading-backtest",
@@ -135,7 +135,7 @@ export const projects: readonly Project[] = [
       "Leakage-controlled Engle-Granger backtest on AAPL–MSFT, KO–PEP, and XOM–CVX. KO–PEP is the only 5% cointegration pass; all strategy Sharpe intervals cross zero, with costs, slippage, baselines, exposure, turnover, and drawdown reported.",
     tags: ["Python", "statsmodels", "yfinance", "Backtesting"],
     category: "Quant",
-    link: "https://github.com/02061997/statistical-pairs-trading",
+    link: "https://github.com/abhijeetgupta02/statistical-pairs-trading",
   },
   {
     slug: "garch-volatility",
@@ -145,7 +145,7 @@ export const projects: readonly Project[] = [
       "Daily one-step-ahead GARCH(1,1), EWMA, and rolling-volatility forecasts for SPY plus five equities. GARCH wins RMSE on 4/6 symbols and QLIKE on 5/6, while EWMA remains best for JNJ/XOM RMSE and XOM QLIKE.",
     tags: ["Python", "statsmodels", "GARCH", "Time Series"],
     category: "Quant",
-    link: "https://github.com/02061997/garch-volatility-modeling",
+    link: "https://github.com/abhijeetgupta02/garch-volatility-modeling",
   },
   {
     slug: "lstm-financial-forecasting",
@@ -155,7 +155,7 @@ export const projects: readonly Project[] = [
       "Chronological PyTorch LSTM benchmark with ARIMA, random-walk, seasonal-naive, ridge, and random-forest baselines. ARIMA has the best MAE/RMSE; one LSTM seed has higher directional accuracy, but the averaged LSTM underperforms simple baselines.",
     tags: ["PyTorch", "LSTM", "Time Series", "yfinance"],
     category: "Quant",
-    link: "https://github.com/02061997/financial-time-series-forecasting",
+    link: "https://github.com/abhijeetgupta02/financial-time-series-forecasting",
   },
   {
     slug: "career-prediction-benchmark",
@@ -165,7 +165,7 @@ export const projects: readonly Project[] = [
       "Paper-faithful multiclass-multioutput benchmark using 26-to-11 entropy feature selection, six domain classes, eight position classes, and six classifiers without redistributing personal LinkedIn-derived records.",
     tags: ["Scikit-learn", "Multi-output", "Benchmark", "Publication"],
     category: "ML / AI",
-    link: "https://github.com/02061997/career-prediction-benchmark",
+    link: "https://github.com/abhijeetgupta02/career-prediction-benchmark",
   },
   {
     slug: "ai-for-construction-safety",
@@ -175,7 +175,7 @@ export const projects: readonly Project[] = [
       "Reproducibility package for grounded OSHA violation evaluation with component ablations, paired statistical tests, threshold sensitivity, failure attribution, and claim traceability.",
     tags: ["Vision-Language Models", "Grounding", "Evaluation", "Reproducibility"],
     category: "ML / AI",
-    link: "https://github.com/02061997/ai-for-construction-safety",
+    link: "https://github.com/abhijeetgupta02/ai-for-construction-safety",
   },
 ] as const;
 

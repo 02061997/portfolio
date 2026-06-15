@@ -25,7 +25,7 @@ export const Route = createFileRoute("/contact")({
 function Contact() {
   const channels = [
     { label: "Email", value: profile.email, href: `mailto:${profile.email}` },
-    { label: "GitHub", value: "github.com/02061997", href: profile.links.github },
+    { label: "GitHub", value: "github.com/abhijeetgupta02", href: profile.links.github },
     { label: "LinkedIn", value: "linkedin.com/in/abhijeetgupta02", href: profile.links.linkedin },
   ];
 

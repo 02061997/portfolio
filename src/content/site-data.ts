@@ -123,7 +123,7 @@ export const projects: readonly Project[] = [
     title: "Options Pricing Engine & Greeks Computation",
     year: "Jan 2026",
     summary:
-      "Validated Black-Scholes and Monte Carlo pricing with antithetic/control variates, analytical and numerical Greeks, implied volatility, convergence diagnostics, and arbitrage-property tests.",
+      "Validated Black-Scholes and Monte Carlo pricing with antithetic/control variates, analytical/numerical Greeks, put-call parity grids, no-arbitrage checks, confidence intervals, and a recovered implied-volatility surface.",
     tags: ["Python", "NumPy", "SciPy", "Monte Carlo"],
     category: "Quant",
     link: "https://github.com/02061997/options-pricing-and-greeks",
@@ -133,7 +133,7 @@ export const projects: readonly Project[] = [
     title: "Statistical Pairs Trading Backtest",
     year: "Dec 2025",
     summary:
-      "Leakage-controlled Engle-Granger backtest on AAPL–MSFT, KO–PEP, and XOM–CVX. The frozen-data reproduction identifies KO–PEP as the only pair cointegrated at 5% and reports bootstrap uncertainty, costs, turnover, and drawdown.",
+      "Leakage-controlled Engle-Granger backtest on AAPL–MSFT, KO–PEP, and XOM–CVX. KO–PEP is the only 5% cointegration pass; all strategy Sharpe intervals cross zero, with costs, slippage, baselines, exposure, turnover, and drawdown reported.",
     tags: ["Python", "statsmodels", "yfinance", "Backtesting"],
     category: "Quant",
     link: "https://github.com/02061997/statistical-pairs-trading",
@@ -143,7 +143,7 @@ export const projects: readonly Project[] = [
     title: "GARCH Volatility Modeling & Stochastic Time Series",
     year: "May 2025",
     summary:
-      "One-step-ahead GARCH(1,1), EWMA, and rolling-volatility forecasts for SPY and five liquid equities. The reproduced benchmark shows that no model dominates every asset or metric.",
+      "Daily one-step-ahead GARCH(1,1), EWMA, and rolling-volatility forecasts for SPY plus five equities. GARCH wins RMSE on 4/6 symbols and QLIKE on 5/6, while EWMA remains best for JNJ/XOM RMSE and XOM QLIKE.",
     tags: ["Python", "statsmodels", "GARCH", "Time Series"],
     category: "Quant",
     link: "https://github.com/02061997/garch-volatility-modeling",
@@ -153,7 +153,7 @@ export const projects: readonly Project[] = [
     title: "LSTM-Based Financial Time Series Forecasting",
     year: "Dec 2023",
     summary:
-      "Chronological PyTorch LSTM benchmark with random-walk, seasonal-naive, ridge, and random-forest baselines. The reproduced run improves level RMSE but does not establish a directional trading edge.",
+      "Chronological PyTorch LSTM benchmark with ARIMA, random-walk, seasonal-naive, ridge, and random-forest baselines. ARIMA has the best MAE/RMSE; one LSTM seed has higher directional accuracy, but the averaged LSTM underperforms simple baselines.",
     tags: ["PyTorch", "LSTM", "Time Series", "yfinance"],
     category: "Quant",
     link: "https://github.com/02061997/financial-time-series-forecasting",
